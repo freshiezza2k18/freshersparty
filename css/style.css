@@ -1,0 +1,467 @@
+body{
+  font-family:Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color: floralwhite;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+
+
+
+/* Header **/
+
+
+
+ #branding h1{
+  margin:0;
+     font-family: "Open Sans";
+	font-size: 15px;
+	font-style: italic;
+	
+	font-weight: 700;
+     
+}
+
+.light{
+    color: white;
+    font-weight:bold;
+}
+.highlight,.current a{
+  color:deeppink;
+  font-weight:bold;
+}
+.light:hover {
+    color: deeppink;
+}
+.highlight:hover {
+    color: white;
+}
+
+
+/* Showcase */
+#showcase{
+  min-height:630px;
+    background: url(images/stars%20background%20GIF-source.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: -20px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  text-align:center;
+  color:#ffffff;
+    
+}
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes change {
+    0%{ color: green;
+    }
+      20%{ color: blue;
+    }
+      40%{ color: deeppink;
+    }
+      60%{ color: aqua;
+    }
+      80%{ color: firebrick;
+    }
+     100%{ color:red;
+    }
+    
+}
+
+#showcase h1{
+  margin-top: 50px;
+  font-size:65px;
+  margin-bottom:10px;
+      
+font-family: "Nosifer Caps";
+	font-size: 80px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	
+
+
+    color: red;
+    animation: fade-slide-up 2s ease-out forwards,change 10s infinite;
+    
+}
+
+#showcase p{
+  font-size:25px;
+    font-family: cursive;
+	font-size: 34px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	
+    animation: fade-slide 2s ease-out forwards;
+    
+}
+@keyframes fade-slide {
+  0% {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+#showcase a button{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid red;
+    color: white;
+    animation: fade 2s ease-out forwards;
+    
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(45rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+#showcase a button:hover{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid red;
+    color: white;
+}
+
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    text-align: center;
+    border-radius: 1px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:17%;
+  padding:10px;
+    
+}
+.box1 img{
+    width: 530px;
+    height: 250px;
+}
+
+#boxes .box img{
+  width:140px;
+    height: 160px;
+    opacity: 0.9;
+}
+.event1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box1{
+    flex: 2;
+}
+.box2{
+    flex: 1;
+}
+.event1 div{
+    padding: 10px;
+}
+#events{
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+}
+td{
+    padding: 4px;
+    text-align: center;
+    font-family:monospace;
+    background-color: black;
+    color: white;
+    
+}
+
+table{
+    
+    
+   border-collapse: collapse;
+    
+  
+    padding: 5px;
+    width: 75%;
+    border: none;
+    
+}
+.navbar{
+    background-image: url(images/nav.jpg);
+    background-size: cover;
+    margin-bottom: 0;
+
+    
+}
+#myNavbar a{
+    color:aqua;
+    padding-top:26px;
+    font-size: 19px;
+}
+#myNavbar a:hover{
+    font-weight: bold;
+}
+#smk{
+    background-color: transparent;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    padding-top: 8px;
+}
+tr{
+    background-color: transparent;
+}
+td{
+    background-color: transparent;
+}
+
+th{
+    text-align: center;
+}
+
+
+#eventsandact{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.9;
+    padding: 10px;
+  
+    color: white;
+}
+#eventsandacti{
+    
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    padding: 10px;
+   
+}
+#contactus{
+   
+     
+    color: white;
+    font-family: monospace;
+    display: flex;
+    margin-bottom: -20px;
+}
+.flex{
+    flex: 1;
+    padding: 20px;
+}
+.flexed{
+    flex: 2;
+    padding: 20px;
+}
+
+.completefooter{
+    background-image: url(images/bk.png);
+    margin-top:-19px;
+  
+}
+.name{
+    font-weight: 400;
+    color: deeppink;
+}
+
+
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#fff;
+    
+    
+ 
+  text-align: center;
+    border: #fff 1px inset;
+}
+#sm{
+    background-color: black;
+    margin: 0px;
+    padding: 25px;
+    margin-bottom: -42px;
+    text-align: center;
+    font-family: cursive;
+}
+h4{
+    text-align: center;
+     
+}
+.sml{
+    width: 30%;
+    color: dimgray;
+    
+}
+
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  
+  text-align: center;
+  text-decoration: none;
+  margin: 30px 15px;
+  
+    align-content: center;
+    color: #fff;
+    
+}
+ #branding h1{
+        font-size: 35px;
+        padding:17px;
+}
+#smd{
+    text-align: left;
+}
+    
+.fa:hover {
+    text-decoration: none;
+    animation: example 2s linear;
+}
+@keyframes example{
+    0%{
+        color: red;
+ 
+        
+    }
+    100%{
+        color: #fff;
+    }
+}
+
+
+/* Media Queries */
+@media(max-width: 530px){
+    #contactus{
+        display: block;
+    }  
+    
+    
+    
+}
+@media(max-width: 1180px){
+ 
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+    }
+    #boxes{
+        margin-right: 15%;
+        margin-left: 15%;
+    }}
+@media(max-width: 900px){
+ 
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+    .flex a{
+        display:inline;
+        padding: 14px;
+       margin: 0px;
+        
+        
+    }
+    #branding h1{
+        font-size: 30px;
+        padding: 2%;
+        
+    }
+.sml{
+    width: 80%;}
+    #smd{
+        text-align: left;
+        
+    }
+    .smdl{
+        width: auto;
+        
+    }
+    
+    
+    .flex{
+        margin: auto;
+    }
+    
+    hr{
+        width: 75%;
+    }
+    #contactus{
+        display: block;
+    }
+    a{
+        display:contents;
+        padding: 0px;
+    }
+    table{
+        width: 80%;
+        
+    }
+    #navbar{
+        display: none;
+    }
+
+  #showcase h1{
+    margin-top:25px;
+      font-size: 40px;
+  }
+    #showcase p{
+  font-size:15px;
+}
+
+#showcase{
+    min-height: 540px;
+  }
+
+ 
+    #boxes .box img{
+  width:100px;
+    height: 100px;
+}
+      
+    
+}

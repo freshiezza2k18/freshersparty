@@ -1,0 +1,128 @@
+ 
+     .footer_widget{
+    background: #1a1a1a;
+    color:#fff;
+    background-size: cover;
+}
+.footer_widget .main_widget{
+    padding: 55px 15px 80px 15px; 
+    overflow: hidden;
+}
+.single_widget{
+    margin-bottom:30px;
+}
+.single_widget ul li{
+    margin-bottom:10px;
+}
+.single_widget ul li a{
+    width:100%;
+    display:block;
+    overflow: hidden;
+    font-size:0.875rem;
+    color:#fff;
+    line-height: 1.4rem;
+}
+.single_widget ul li a:hover{
+    color:#ff7200;
+}
+
+.footer_logo{
+    margin-bottom: 20px;
+}
+
+.single_widget li.single_latest_news{
+    margin-bottom: 20px;
+}
+.footer_subcribs_area .navbar-form {
+    padding: 0;
+}
+.footer_subcribs_area .form-control {
+    font-size: 14px;
+    border: 1px solid #a199b4;
+    color:#a199b4;
+    border-radius:0px;
+    width: 100%;
+    display: inline-block;
+    height: 45px;
+    background-color:transparent;
+    line-height: 20px;
+}
+.footer_subcribs_area .form-group{
+    position:relative;
+}
+
+.footer_subcribs_area .submit_btn{
+    background: transparent;
+    border: 0px solid #ccc;
+    color: #ededed;
+    padding: 5px 10px;
+    border-radius: 0px;
+    height: 45px;
+    outline: none;
+    width: 25%;
+    transition: all .6s;
+    margin-left: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.footer_subcribs_area .submit_btn:hover{
+    color: #fff;
+}
+.footer_subcribs_area .submit_btn:before {
+    content: "\f178";
+    font-family: 'Fontawesome';
+    text-align: center;
+    font-size:1rem;
+}
+
+
+/*footer section*/
+.footer{
+    background: #000000;
+}
+.footer .main_footer{
+    overflow: hidden;
+    padding: 40px 0px;
+}
+.footer .flowus{
+    text-align: right;
+}
+.footer .flowus a i{
+    color:#fff;
+    font-size:1rem;
+    padding: 5px;
+    border:1px solid #fff;
+    border-radius: 0;
+    width:30px;
+    height:30px;
+    text-align: center;
+    line-height: 18px;
+    margin-right:5px;
+    margin-top:10px;
+}
+.footer .flowus a i:hover{
+    color:#ff7200;
+    border:1px solid #ff7200;
+}
+
+.copyright_text{
+    text-align: left;
+}
+.copyright_text p{
+    color:#fff;
+    line-height: 25px;
+    max-width: 100%;
+    padding-top: 15px;
+}
+.copyright_text p i{
+    padding:0px 10px;
+    color:#ff0000;
+}
+.copyright_text p a{
+    padding:0px 10px;
+    color:#ff7200;
+}
+
+

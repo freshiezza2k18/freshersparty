@@ -1,0 +1,146 @@
+.display {
+	flex: 1;
+	display: flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : center;
+    background-color: transparent;
+    background-size: cover;
+	font-family: tahoma !important;
+	padding-bottom: 30px;
+    padding-top: 50px;
+    
+}
+
+
+.clock{
+	width: 65%;
+}
+#numbers{
+	width: auto;
+}
+#numbers span{
+	float: left;
+	text-align: center;
+	font-size: 60px;
+	margin: 0 2.5%;
+	
+	padding: 20px;
+	width: 20%;
+	border-radius: 50%;
+	box-sizing: border-box;
+    border: 1px solid;
+}
+#numbers span:nth-child(1){
+    animation: cl 10s infinite;
+    color: #26c2b9;
+  
+}
+#numbers span:nth-child(2){
+    animation: clo 10s infinite;
+  color: #f6bc58;
+}
+#numbers span:nth-child(3){
+    animation: cloc 10s infinite;
+    color: #2dcb74; 
+  
+}
+#numbers span:nth-child(4){
+    animation: clock 10s infinite;
+    color: #fa5559;
+ 
+}
+@keyframes cl{
+    0%{
+        border-color: #fa5559;
+    }
+     33%{
+        border-color: #2dcb74; 
+    }
+     66%{
+            border-color: #f6bc58;
+    }
+     100%{
+         border-color: #26c2b9;
+    }
+}
+@keyframes clo{
+    0%{
+      border-color: #26c2b9;  
+    }
+     33%{
+      border-color: #fa5559;  
+    }
+     66%{
+        border-color: #2dcb74;
+    }
+     100%{
+         border-color: #f6bc58;
+    }
+}
+@keyframes cloc{
+    0%{
+         border-color: #f6bc58;
+    }
+     33%{
+        border-color: #26c2b9;
+    }
+     66%{
+       border-color: #fa5559; 
+    }
+     100%{
+    
+         border-color: #2dcb74
+    }
+}
+@keyframes clock{
+    0%{
+    
+        border-color: #2dcb74
+    }
+     33%{
+         border-color: #f6bc58;
+    }
+     66%{
+             border-color: #26c2b9; 
+    }
+     100%{
+       border-color: #fa5559; 
+    }
+}
+#numbers:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#units span{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 30px;
+	color: #ddd;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+@media(max-width: 768px){
+    #numbers span{
+       widows: auto;
+        text-align: center;
+        font-size: 18px;
+        font-family: monospace;
+        padding: 8px;
+    }
+    #units span{
+        font-size: 13px;
+    }
+    
+    
+}
+
+
+
+
+
