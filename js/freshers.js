@@ -1,6 +1,6 @@
 function countdown(){
           var now=new Date();
-          var eventDate=new Date(2018,3,22);
+          var eventDate=new Date(2018,3,21);
           var currentTime=now.getTime();
           var eventTime=eventDate.getTime();
           var remTime=eventTime-currentTime;
